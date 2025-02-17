@@ -32,6 +32,7 @@ app.use(
     saveUninitialized: true,
   })
 );
+
 app.use(passUserToView);
 
 app.get('/', (req, res) => {
